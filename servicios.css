@@ -1,0 +1,152 @@
+@import url(fouentes.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: rgb(245, 240, 240);
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    font-family: 'Nexa','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(images/Background\ -\ Aire\ Acondicionado1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: 'Mermaid',sans-serif;
+}
+header .header{
+    color: white;
+    background-color: rgb(22, 111, 200);
+    width: 100%;
+    min-height: 15vh;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 10px;
+}
+header .header .logo{
+    background-color: rgb(22, 111, 200);
+     flex: 25%;
+     min-height: 4vh;
+     margin-bottom: 10px;
+     box-sizing: border-box;
+     border-radius: 5%;
+     margin-left: 5px;
+}
+.header .logo .img{
+    flex: 20px;
+}
+
+
+header .header .titulo{
+    font-size: 20px;
+    text-align: center;
+    flex: 55%;
+    min-height: 10vh;
+    margin-bottom: 10px;
+    align-content: center;
+}
+header .header .ingreso{
+    text-align: center;
+    font-size: smaller;
+    flex: 10%;
+    min-height: 10vh;
+    margin-bottom: 10px;
+}
+header .header .compra{
+    flex: 10%;
+    min-height: 10vh;
+    margin-bottom:  10px;
+}
+
+nav{
+    margin: auto;
+    color: black;
+    font-weight: bolder;
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.container{
+    background-color:rgb(22, 111, 200);
+    width: 100%;
+    min-height: 8vh;
+    position: relative;
+    border: solid white;
+}
+.container h2{
+    color: #bde0ff;
+    text-shadow: 5px 5px 5px black;
+    font-size: 40px;
+    text-align: center;
+}
+
+.carousel-inner {
+    height: 370px; /* Fija la altura del carrusel */
+  }
+
+  .carousel-inner img {
+    height: 100%; /* La imagen ocupa todo el alto */
+    width: 100%;  /* La imagen ocupa todo el ancho */
+    object-fit: cover; /* Recorta la imagen para llenar el espacio sin deformarse */
+  }
+
+main{
+    font-size: 1rem;
+    display: grid;
+    justify-content: center;
+    padding: 15px;
+}
+
+footer{
+    width: 100%;
+    max-width: 1200px;
+    background-color: rgba(22, 111, 200,0.5);
+    height: 100%;
+    font-size: .875rem;
+    text-align: center;
+}
+footer img{
+    width: 60px;
+    padding: 10px;
+}
+footer p{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+footer a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+footer .redes{
+   padding-left: 30px;
+}
+
+@media(max-width:991px) {
+    body{
+        padding: 30px;
+    }
+    form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px;
+    }
+}

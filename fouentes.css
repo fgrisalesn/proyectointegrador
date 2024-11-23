@@ -1,0 +1,14 @@
+    @font-face {
+        font-family: "Nexa";
+        src: url(font/nexablack.ttf);
+    }
+
+    @font-face {
+        font-family: "Mermaid";
+        src: url(font/Mermaid1.ttf);
+    }
+
+    @font-face {
+        font-family: "Butler";
+        src: url(font/Butler/Butler_ExtraBold.otf);
+    }
